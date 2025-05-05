@@ -1,0 +1,33 @@
+** clear screen **
+clear
+
+*** directory ***
+
+make directory => mkdir name of file
+
+open directory => start  name of directory 
+
+remove directory => rmdir name of file 
+
+go to inside the directory => cd name of file 
+
+go to outside the directory => cd ..
+
+change the drive => e:
+
+
+*** file ***
+
+create file => type nul > file.js
+
+delete file => del file name
+
+view the contents of file => cat  toc.txt
+
+open file => start  name of file
+
+add text(exs:hello) => echo hello > file1.txt 
+  
+append text => echo hello >> file1.txt
+
+to see that access to how many files => dir
