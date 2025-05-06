@@ -1,0 +1,17 @@
+the first time we use git we have to specify a few configuration settings
+
+** Name **
+git config --global user.name "Fatemeh Sanjari"
+
+** Email **
+git config --global user.email fatemehsanjari5178@gmail.com
+
+** Default Editor(Visual Studio Code) **
+1. first we have to tell git that we want to use vs code as our default difftool
+git config --global diff.tool vscode
+
+2. how to launch vscode 
+git config --global difftool.vscode.cmd "code --wait --diff"
+
+--wait => tells the terminal window to wait until we're done with vs code 
+--diff => this tells vs code that we want to use it for diffing or comparing files

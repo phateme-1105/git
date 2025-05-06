@@ -1,0 +1,15 @@
+** Initialize Local Repository **
+git init 
+
+** clean changes ** 
+git clean -f
+
+** staged changes **
+git add .
+git add namefile
+✨git ls-files✨
+
+** unstaged changes **
+git restore --staged .
+git restore --staged namefile
+

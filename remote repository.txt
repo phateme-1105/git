@@ -1,0 +1,9 @@
+** pull remote Repository **
+git remote add origin http:// 
+git branch -M main
+git pull --rebase origin main
+
+** push remote Repository **
+git remote add origin https://
+git branch -M main
+git push -u origin main
