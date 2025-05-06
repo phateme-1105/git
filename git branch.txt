@@ -2,4 +2,7 @@
 show all branch => git branch
 create branch => git branch create-search-box main
 switch branch => git switch create-search-box 
-push branch => git push
+
+🌼🌼 push branch 🌼🌼
+first time => git push --set-upstream origin create-search-box
+next time => git push
