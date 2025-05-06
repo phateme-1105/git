@@ -2,6 +2,14 @@
 git init 
 git add .
 git commit -m "message"
+git push
+
+----------------------------------------------------------
+🛢🛢 clone project from gitHub 🛢🛢
+git clone http://
+
+----------------------------------------------------------
+🛢🛢 connect local Repository to gitHub Repository 🛢🛢
 git remote add origin https://
 git branch -M main
 git push -u origin main
@@ -22,10 +30,12 @@ git restore --staged namefile
 ----------------------------------------------------------
 ☁ Stage ☁
 
-git add namefile
+✨git add namefile✨
 ✨git ls-files✨
 ✨git status✨
 
 ----------------------------------------------------------
 📁 History 📁
+
+✨git log --oneline✨
 

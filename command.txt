@@ -1,6 +1,9 @@
 ** clear screen **
 clear
 
+** copy **
+shift + insert
+
 *** directory ***
 
 make directory => mkdir name of file
