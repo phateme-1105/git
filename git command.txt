@@ -1,15 +1,31 @@
-** Initialize Local Repository **
+🧨🧨 popular command 🧨🧨
 git init 
-
-** clean changes ** 
-git clean -f
-
-** staged changes **
 git add .
-git add namefile
-✨git ls-files✨
+git commit -m "message"
+git remote add origin https://
+git branch -M main
+git push -u origin main
+git pull --rebase origin main
 
-** unstaged changes **
+----------------------------------------------------------
+↩↩ clean changes ↩↩ 
+
+for file that Added => git clean -f
+for file that Modify => git restore .
+
+----------------------------------------------------------
+↩↩ unstaged changes ↩↩
+
 git restore --staged .
 git restore --staged namefile
+
+----------------------------------------------------------
+☁ Stage ☁
+
+git add namefile
+✨git ls-files✨
+✨git status✨
+
+----------------------------------------------------------
+📁 History 📁
 
